@@ -55,3 +55,6 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+show_excerpts: true
+categories: [game, cv, cg, ml, other]

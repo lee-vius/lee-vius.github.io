@@ -1,5 +1,5 @@
+<img src="/assets/img_layouts/bg2.jpg" style="opacity: 0.7;"/>
 <header class="site-header" role="banner">
-
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
@@ -19,8 +19,8 @@
         <div class="trigger">
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
-            {%- if my_page.title -%}
-            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            {%- if my_page.title and my_page.subpage != true -%}
+            <a class="page-link" href="{{ my_page.url | relative_url }}" {% if page.url == my_page.url %} style="color: silver;";{% endif %}>{{ my_page.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
         </div>
