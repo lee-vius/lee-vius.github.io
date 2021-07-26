@@ -4,13 +4,14 @@
         <ul class="post-list">
             {%- if page.section == "all" -%}
                 {%- for post in site.posts -%}
-                <li>
+                <li class="post-item">
                     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                     <h3>
                         <a class="post-link" href="{{ post.url | relative_url }}">
                             {{ post.title | escape}}
                         </a> 
                     </h3>
+                    <img src="{{post.icon}}" class="icon">
                     <span class="post-meta">
                         {{ post.date | date: date_format }}
                     </span>
@@ -30,13 +31,14 @@
             {%- for category in site.categories -%}
                 {%- if category[0] == page.section -%}
                     {%- for post in category[1] -%}
-                    <li>
+                    <li class="post-item">
                         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                         <h3>
                             <a class="post-link" href="{{ post.url | relative_url }}">
                                 {{ post.title | escape}}
                             </a> 
                         </h3>
+                        <img src="{{post.icon}}" class="icon">
                         <span class="post-meta">
                             {{ post.date | date: date_format }}
                         </span>
