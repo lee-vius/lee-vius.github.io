@@ -4,6 +4,7 @@
         <ul class="post-list">
             {%- if page.section == "all" -%}
                 {%- for post in site.posts -%}
+                {%- if post.type == "project" -%}
                 <li class="post-item">
                     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                     <h3>
@@ -11,7 +12,9 @@
                             {{ post.title | escape}}
                         </a> 
                     </h3>
-                    <img src="{{post.icon}}" class="icon">
+                    {%- if post.icon -%}
+                        <img src="{{post.icon}}" class="icon">
+                    {%- endif -%}
                     <span class="post-meta">
                         {{ post.date | date: date_format }}
                     </span>
@@ -25,12 +28,14 @@
                         {{ post.excerpt }}
                     {%- endif -%}
                 </li>
+                {%- endif -%}
                 {%- endfor -%}
             {%- endif -%}
 
             {%- for category in site.categories -%}
                 {%- if category[0] == page.section -%}
                     {%- for post in category[1] -%}
+                    {%- if post.type == "project" -%}
                     <li class="post-item">
                         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                         <h3>
@@ -38,7 +43,9 @@
                                 {{ post.title | escape}}
                             </a> 
                         </h3>
-                        <img src="{{post.icon}}" class="icon">
+                        {%- if post.icon -%}
+                            <img src="{{post.icon}}" class="icon">
+                        {%- endif -%}
                         <span class="post-meta">
                             {{ post.date | date: date_format }}
                         </span>
@@ -52,6 +59,7 @@
                             {{ post.excerpt }}
                         {%- endif -%}
                     </li>
+                    {%- endif -%}
                     {%- endfor -%}
                 {%- endif -%}
             {%- endfor -%}

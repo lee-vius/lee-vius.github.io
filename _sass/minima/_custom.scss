@@ -4,17 +4,17 @@ Post syntax
 .post-item {
     // Positioning context for the mobile navigation icon
     position: relative;
+    min-height: 240px;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     margin-right: 5px;
     margin-left: 5px;
 
     img.icon {
-        height: 150px;
+        width: 200px;
+        height: 200px;
         float:left;
-        margin-top: 10px;
         margin-right: 30px;
-        margin-bottom: 30px;
     }
   }
 
@@ -52,5 +52,46 @@ Self-Introduction Page
     .author-intro {
         font-size: $base-font-size * 1.125;
         color: lightslategrey;
+    }
+}
+
+/*
+Education Page
+*/
+.education-item {
+    min-height: 140px;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+    img.icon {
+        height: 120px;
+        width: 120px;
+        float: left;
+        margin-top: 5px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .education-name {
+        font-size: $base-font-size * 1.25;
+        font-weight: $base-font-weight * 1.25;
+        color:lightskyblue;
+    }
+
+    .education-time {
+        font-size: $base-font-size * 0.875;
+        font-weight: $base-font-weight * 0.875;
+        color: lightslategray;
+    }
+
+    .education-title {
+        float: right;
+        font-style: italic;
+        font-size: $base-font-size * 1.125;
+        font-weight: $base-font-weight * 1.125;
+        color: lightskyblue;
     }
 }
