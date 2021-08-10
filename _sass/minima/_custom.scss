@@ -1,4 +1,32 @@
 /*
+Image syntax in posts
+*/
+.image-item {
+    width: 640px;
+    margin-left: 150px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.image-inline-left {
+    position: relative;
+    float: left;
+    max-height: 300px;
+    margin-right: 50px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.image-inline-right {
+    position: relative;
+    float: right;
+    max-height: 300px;
+    margin-right: 10px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/*
 Post syntax
 */
 .post-item {
