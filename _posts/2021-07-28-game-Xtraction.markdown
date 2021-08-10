@@ -10,11 +10,11 @@ Xtraction Point is an 2D pixel-style game of adventure genre. The game requires 
 
 
 
-The following video can give you a general idea what the game is like. We were a team, Laforce, who finally developed this game, and we decided to call it "Xtraction Point". The platform is MacOS or Windows, and you may need two controllers to try this game. If you get interested, feel free to download the game through the following [link](https://www.indiedb.com/downloads/mirror/186354/123/cb2cbfa9f70d9fb059181683af2be904/?referer=https%3A%2F%2Fwww.indiedb.com%2Fgames%2Fxtraction-point)!
+The following video can give you a general idea what the game is like. We were a team, Laforce, who finally developed this game, and we decided to call it "Xtraction Point". The platform is MacOS or Windows, and you may need two controllers to try this game. If you get interested, feel free to download the game through the following [link](https://www.indiedb.com/games/xtraction-point/downloads/xtraction)!
 
 <div class="home">
   <video class="youtube-item" controls>
-    <source src="https://www.indiedb.com/downloads/mirror/186368/121/d50c510e47af44d0b4a7b16b349583fc/?referer=https%3A%2F%2Fwww.indiedb.com%2Fgames%2Fxtraction-point" type="video/mp4">
+    <source src="/assets/img_posts/2021-07-28-game-Xtraction/xv.mp4" type="video/mp4">
   </video>
 </div>
 
