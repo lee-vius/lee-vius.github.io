@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-date:   2021-07-21 11:41:48 +0800
-categories: game ml
+date:   2021-08-11 11:41:48 +0800
+categories: game
 icon: /assets/img_about/pto3.png
 type: none
 ---
