@@ -7,6 +7,7 @@ icon: /assets/img_posts/2021-08-10-game-Zelda/zelda_logo.png
 type: project
 ---
 You may remember the heat brought by *The Legand of Zelda: Breath of Wild* in 2017. To memorize the great game, we trace back the whole history of Zelda, and finally found the first release in this series. It is also a great 2D pixel adventure game. We made an reproduction for the initial Zelda game, focusing on the dungeon part in the map. Besides the basic features in the game, we add some extra elements to make it further interesting. Hope you can enjoy.
+
 <br><br>
 
 # Link

@@ -1,33 +1,42 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Gemini Balls"
 date:   2021-08-11 11:41:48 +0800
 categories: game
-icon: /assets/img_about/pto3.png
-type: none
+icon: /assets/img_posts/2021-08-11-game-Gemini/b2.png
+type: project
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+It's a good taste to experience the game development in 3D world, starting from a ball. In my case, I developed a ball game that require two players to cooperate with each other. There's no enemy, and no fierce fightings. The only thing players need to do is to calm down and solve the puzzle in the scene peacefully (I hope). Enjoy!
 
-Jekyll requires blog post files to be named according to the following format:
+<br><br>
 
-`YEAR-MONTH-DAY-title.MARKUP`
+# Download
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Not too hard to see it's a co-operation game from the following screenshot. I developed the game in two weeks and grab some assets from unity free store. Thanks to all of them!
 
-Jekyll also offers powerful support for code snippets:
+Generally, you will need two things: a keyboard and a friend who is willing to play with you. There are five levels in total in this game, and I may produce more in the future. Following the tutorial level, you will get the basic controling and idea of the game. The game will work on both MacOS and Windows system, and feel free to [download here](https://www.indiedb.com/games/gemini-balls)!
+<div class="home">
+  <img class="image-item" src="/assets/img_posts/2021-08-11-game-Gemini/b1.png">
+</div>
 
-{% highlight ruby %}
-def print_hi(name):
-  print("Hi there")
-  return
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+# Features
+<div class="home">
+  <img class="image-inline-left" src="/assets/img_posts/2021-08-11-game-Gemini/b3.png">
+</div>
+<br>
+<br>
+<br>
+There are lots of gears in the scene, and no fear, they don't bite. You may need to find out their mechanism to figure out a path to your final destinition.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Unfortunately, I am not an expert in modeling yet, so the assets are from Unity Asset Store, and I combined some of them togther to make some mechanical-like gears. You may be confused why all things are in the sky. Well never mind, they are just there.
+<br>
+<br>
+<br>
+<br>
+<br>
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
-
-![test-img](/assets/img_about/pto2.png)
+I quite like the progress of designing the levels. It is like making a LEGO, with all prefabs in your pocket. Each prefab serves as a type of gear or mechanism. Combining those gears can give me ideas of designing various levels. For now, there are only five scenes in the game, but certainly there can be more as long as I found some interesting ways to combine gears together.
+<div class="home">
+  <img class="image-item" src="/assets/img_posts/2021-08-11-game-Gemini/b5.png">
+</div>
+Scenes will be different from each other, and I hope you can have different experiences solving those puzzles. Hope you can enjoy!
