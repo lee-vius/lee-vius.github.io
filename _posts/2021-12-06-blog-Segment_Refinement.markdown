@@ -67,6 +67,4 @@ $\varphi_{st}(\mu_s, \mu_t) = \max(\omega_{st}, \epsilon)L(s,t)T(\mu_s, \mu_t)$
 
 <br>
 
-# Conclusion
-
 

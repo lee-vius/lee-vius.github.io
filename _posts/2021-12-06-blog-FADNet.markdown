@@ -34,6 +34,4 @@ $c(\vec{x_1}, \vec{x_2}) = \sum(f_1(\vec{x_1}) \cdot f_2(\vec{x_2}))$
 
 <br>
 
-# Conclusion
-
 
